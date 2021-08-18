@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: tomato;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+  background-color: tomato;
+  height: 100vh;
+}
+
+.print-container,
+.resume-container {
+  background-color: #ffffff;
+  border: 1px solid;
+  width: 95%;
+  margin: 20px auto;
+}
+
+.print-container {
+  padding: 40px;
+  text-align: center;
+}
+
+.floatbutton {
+    color: #000000;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid tomato;
+
+}
+
+.floatbutton:hover {
+    background-color: tomato;
+}
+
+.home-link {
+    color: #000000;
+    text-decoration: none;
+}
+
+#get-username {
+    padding: 5px;
+}
+
+.button {
+    background-color: tomato;
+    color: #ffffff;
+    border: 1px solid red;
+    padding: 5px;
+}
+
+.intro-h1 {
+    margin: 30px 0 10px;
+}
+
+.myname {
+  display: none;
+  padding: 0px 0 30px;
+}
+
+#resume-link {
+    background-color: tomato;
+  color: #ffffff;
+  border: 1px solid red;
+  border-radius: 10px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+/* resume page */
+.resume-container {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.h1-name {
+    font-size: 25px;
+}
+
+.h3-title {
+    color: red;
+    font-size: 16px;
+}
+
+.grid {
+  border: 1px solid red;
+  display: flex;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+.grid2 {
+  width: 70%;
+}
+
+.grid1 {
+  width: 30%;
+}
+
+.skills, .interest, .aboutme, .education, .experience, .projects, .contact {
+    font-size: 15px;
+    color: red;
+}
+
+.programming-lang, .design, .softskills {
+    font-size: 14px;
+}
+
+.write-up, .year {
+    font-size: 13px;
+    margin-bottom: 3px;
+    margin-top: 4px;
+}
+
+.weatherapp-link {
+    font-size: 13px;
+}
+
+.div-programming, .div-design, .div-softskills, .div-interest, .div-aboutme, .div-education, .div-experience, .div-project, .div-contact {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+@media only screen and (min-width: 600px) {
+  .print-container,
+  .resume-container {
+    background-color: #ffffff;
+    border: 1px solid;
+    width: 80%;
+    margin: 30px auto;
+  }
+
+  .h1-name {
+    font-size: 35px;
+}
+
+.h3-title {
+    color: red;
+    font-size: 25px;
+}
+
+.skills, .interest, .aboutme, .education, .experience, .projects, .contact {
+    font-size: 20px;
+}
+
+.programming-lang, .design, .softskills {
+    font-size: 18px;
+}
+
+.write-up, .year {
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+.weatherapp-link {
+    font-size: 15px;
+}
+
+.div-programming, .div-design, .div-softskills, .div-interest, .div-aboutme, .div-education, .div-experience, .div-project, .div-contact {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+}
+
+@media only screen and (min-width: 960px) {
+  .print-container,
+  .resume-container {
+    background-color: #ffffff;
+    border: 1px solid;
+    width: 60%;
+    margin: 30px auto;
+  }
+}
